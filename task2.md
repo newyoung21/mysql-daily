@@ -1,4 +1,4 @@
-###任务2
+### 任务2
 
 #### 超过5名学生的课
 * 创建表 courses,  并插入11条数据
@@ -10,15 +10,15 @@ CREATE TABLE courses(
 
 INSERT INTO courses
 VALUES('A', 'Math'),
-	 ('B', 'English'),
-	 ('C', 'Math'),
-	 ('D', 'Biology'),
-	 ('E', 'Math'),
-	 ('F', 'Computer'),
-	 ('G', 'Math'),
-	 ('H', 'Math'),
-	 ('I', 'Math'),
-	 ('A', 'Math');
+	    ('B', 'English'),
+      ('C', 'Math'),
+      ('D', 'Biology'),
+      ('E', 'Math'),
+      ('F', 'Computer'),
+      ('G', 'Math'),
+      ('H', 'Math'),
+      ('I', 'Math'),
+      ('A', 'Math');
 ```
 * 查询
 ```
@@ -61,10 +61,10 @@ CREATE TABLE cinema(
 
 INSERT INTO cinema
 VALUES(1, 'War', 'great 3D', 8.9),
-	  (2, 'Science', 'fiction', 8.5),
-	  (3, 'irish', 'boring', 6.2),
-	  (4, 'Ice song', 'Fantacy', 8.6),
-	  (5, 'House card', 'Interesting', 9.1);
+      (2, 'Science', 'fiction', 8.5),
+      (3, 'irish', 'boring', 6.2),
+      (4, 'Ice song', 'Fantacy', 8.6),
+      (5, 'House card', 'Interesting', 9.1);
 ```
 * 查詢
 ```
@@ -84,8 +84,8 @@ ANd id%2 = 1;
 	
 	INSERT INTO Person
 	VALUES(1, 'lin', 'yue'),
-		  (2, 'mao', 'xi'),
-		  (3, 'qian', 'xue');
+        (2, 'mao', 'xi'),
+        (3, 'qian', 'xue');
 ```
 * 创建表2  Address，并插入3条数据
 ```
@@ -98,8 +98,8 @@ CREATE TABLE Address(
 
 INSERT INTO Address
 VALUES (1,1,'深圳', '中国'),
-	   (2,2,'广州', '中国'),
-	   (3,3, '', '');
+       (2,2,'广州', '中国'),
+       (3,3, '', '');
 ```
 *  查询 person 以下信息，  FirstName, LastName, City,  State
 ```
@@ -179,9 +179,9 @@ CREATE TABLE Employee(
 
 INSERT INTO Employee
 VALUES(1, 'Joe', 70000, 3),
-	  (2, 'Henry', 80000, 4),
-	  (3, 'Sam', 60000, NUll),
-	  (4, 'Max', 90000, NULL);
+      (2, 'Henry', 80000, 4),
+      (3, 'Sam', 60000, NUll),
+      (4, 'Max', 90000, NULL);
 ```
 * 查询
 ```
